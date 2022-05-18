@@ -124,6 +124,8 @@ textarea {
   height: 80px;
   border: 7px solid #ffd953;
   border-radius: 7px;
+  display: flex;
+  justify-content: center;
 }
 
 .check img {
