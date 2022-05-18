@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #eee;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -1px;
+  width: 291px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  line-height: 43.58px;
+  letter-spacing: -2px;
+  font-size: 32px;
+}
+
+h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  line-height: 43.58px;
+  letter-spacing: -2px;
+  font-size: 24px;
+}
+
+span {
+  font-weight: 400;
+  font-size: 16px;
+  margin: 30px;
+}
+
+input {
+  width: 80vw;
+  height: 45px;
+  border-radius: 7px;
+  padding: 0;
+  border: 0;
+}
+
+textarea {
+  width: 80vw;
+  height: 113px;
+  border-radius: 7px;
+  padding: 0;
+  border: 0;
+}
+
+.sitio {
+  background-image: url("./img/puntitos.png");
+  display: flex;
+  flex-direction: column;
+  height: 594px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 50px;
+  margin: 18px 17px;
+}
+
+.menu-barra {
+  margin: 18px 17px;
+}
+
+.menu-texto {
+  display: none;
+}
+
+.negro {
+  background-color: black;
+  width: 36px;
+  height: 6px;
+  margin: 7px 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 594px;
+  margin-top: 50px;
+}
+
+.header img {
+  width: 300px;
+  border-radius: 50%;
+}
+
+.presentacion {
+  background-color: black;
+  color: #eee;
+  height: 538px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sobre-mi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.check {
+  background-color: #4caf50;
+  width: 80px;
+  height: 80px;
+  border: 7px solid #ffd953;
+  border-radius: 7px;
+}
+
+.check img {
+  width: 70px;
+}
+
+.servicios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 1375px;
+}
+
+.mis-servicios {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.servicio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.servicio img {
+  width: 138px;
+}
+
+.servicio span {
+  text-align: center;
+}
+
+.container-form {
+  background-color: black;
+  color: #eee;
+  height: 660px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 550px;
+}
+
+.btn {
+  background-color: #ffd953;
+  width: 80vw;
+  height: 45px;
+  border-radius: 10px;
+}
+
+.footer {
+  background-color: #dbdbdb;
+  height: 493px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.derechos {
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  margin: 16px;
+}
+
+.derechos img {
+  width: 71px;
+  margin-bottom: 16px;
+}
+
+.redes {
+  display: flex;
+  flex-direction: column;
+  margin: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  margin-left: 10px;
+}
+
+.instagram,
+.linkedin,
+.github {
+  display: flex;
+  align-items: center;
+  margin: 16px;
+  font-size: 16px;
+}
